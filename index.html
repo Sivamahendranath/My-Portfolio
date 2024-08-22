@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="photos/pic.jpg" alt="Sivamahendranath" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Sivamahendranath">𝕾𝖎𝖛𝖆𝖒𝖆𝖍𝖊𝖓𝖉𝖗𝖆𝖓𝖆𝖙𝖍</h1>
+
+
+          <p class="title">Full Stack Java Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:abcd@example.com" class="contact-link">mahendraragimanu2@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+91-8106442744</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 17, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>15/785-a,Chenna Kesava Colony, Yadiki, Anantapur, Andhra pradesh,India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ragimanu-sivamahendranath-68a94823b/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Sivamahendranath" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/RAGIMANUSI60241" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/bachelorboy_799/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+          I,m a Computer Science and Engineering graduate with Specialization skills of Java, Python, HTML, CSS, JavaScript and Oracle.
+          Now, Currently Looking for the role of fresher engineer role in a challenging and fast-paced environment to test my
+          engineering skills. I am contribute my efforts to-wards the company growth, thereby upscaling my skills to
+          another level.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My Professional Experience</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="photos/student.webp" alt="Web Design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Developer - Intern</h4>
+
+                <p class="service-item-text">
+                By Using the software languages like, HTML, CSS, JavaScript, and SQL.
+                I Developed a "Student Academic Detail".
+                It give's the information regarding to the student details like,,(roll number, name, course, department, address,Fee, College name, marks etc,,.)
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="photos/books.jpeg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Front end Web Developer - Intern</h4>
+
+                <p class="service-item-text">
+                  By uisng HTMl, CSS, JavaScript, and SQL.
+                  I Developed a "Online Book Store".
+                  It gives the information of the book like,,(Book Name, Author, no.of Pages, Cost, and Index).
+                  By using these details customer should buy the book.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="photos/mobile.jpg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Device Testing - Intern</h4>
+
+                <p class="service-item-text">
+                  Testing the Mobile device development of applications for iOS and Android.
+                  Finding the bug's and reporting the team leader.
+                  finding the solutions and suggestions to solove the bug's appear in the device. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="photos/photography.jpeg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="photos/oppo.jpeg" alt="Oppo" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>OPPO Software Solutions</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Sivamahendranath was hired to Test a corporate identity. We were very pleased with the work done. He has a
+                    lot of patience and work skills.
+                    and is very concerned about the needs of client. and reporting work in-time.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+
+          <li class="testimonials-item">
+            <div class="content-card" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+                <img src="photos/brainOvision.jpeg" alt="Oppo" width="60" data-testimonials-avatar>
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-testimonials-title>BrainOvision solutions india Pvt.Ltd</h4>
+
+              <div class="testimonials-text" data-testimonials-text>
+                <p>
+                  Sivamahendranath was hired to create a corporate identity. We were very pleased with the work done.
+                  He has a Good experience in developing the websites and designs
+                  and is very concerned about the needs of client and their requirements.
+                </p>
+              </div>
+
+            </div>
+          </li>
+
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="photos/oppo.jpeg" alt="Oppo" width="80" data-modal-img>
+              </figure>
+
+              <img src="photos/oppo.jpeg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Oppo Software Solutions</h4>
+
+              <time datetime="2021-06-14">25 February, 2023</time>
+
+              <div data-modal-text>
+                <p>
+                  Sivamahendranath was hired to Test a corporate identity. We were very pleased with the work done. He has a
+                    lot of patience and work skills.
+                    and is very concerned about the needs of client. and reporting work in-time.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="photos/oppo.jpeg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="photos/brainOvision.jpeg" alt="client logo">
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">K.S.R.M College of Engineering, Kadapa</h4>
+
+              <span>2020 — 2024</span>
+
+              <p class="timeline-text">
+                I completed my Bachelor's degree in specialization of Computer Science and Engineering 
+                with the CGPA of 8.3
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">JCDR Junior college, Anantapur</h4>
+
+              <span>2018 — 2020</span>
+
+              <p class="timeline-text">
+                I Completed my Intermediate(Higher Secondary School)Education in Specialization of MPC
+                with CGPA of 6.21
+        
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ZP High School, Anantapur</h4>
+
+              <span>2017 — 2018</span>
+
+              <p class="timeline-text">
+                I completed my Secondary School Education in ZP High
+                with CGPA of 9.0
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Manual Testing - Intern</h4>
+
+              <span>Feb,2023 — Aug,2023 in OPPO Software Industries, Hyderabad.</span>
+
+              <p class="timeline-text">
+                Here, I'm worked as device/manual testing intern Role.
+                Working on manual to find the bugs and logs reportiong to the team leader.
+                And also giving the suggestions to solve the bugs and improve the manual performance.
+              </p>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Front-end Web-Developer</h4>
+
+              <span>jul,2023 —Oct,2023 in Skill Vertex Pvt.Ltd, Bangalore.</span>
+
+              <p class="timeline-text">
+                By using Html, Css, Java Script and Sql. 
+                I Developed a"Student Academic details". 
+                By using the real-world data sets should be designed and maintained in a clean and clear manner.
+                In different fields (like, Schools, Institutions). 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Develper</h4>
+
+              <span>Sep,2023 — Oct,2023 in Brain O Vision Pvt.Ltd Solutions India, Hyderabad</span>
+
+              <p class="timeline-text">
+                By using the Software Languages Like Html, Css, Sql and JavaScript.
+                I Developed an "Online Book Store".
+                And it provides the details of the book(like, name, price, author and pages).
+              </p>
+          </ol>
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Html and CSS</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaSript</h5>
+                <data value="50">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">Oracle(Sql and Plsql)</h5>
+                  <data value="50">80%</data>
+                </div>
+  
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%;"></div>
+                </div>
+  
+              </li>
+              <li class="skills-item">
+
+                <div class="title-wrapper">
+                  <h5 class="h5">React.js</h5>
+                  <data value="50">60%</data>
+                </div>
+  
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%;"></div>
+                </div>
+  
+              </li>
+ 
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="photos/student.webp" alt="Student" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Student</h3>
+
+                <p class="project-category">Web development(front End)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="photos/books.jpeg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Online Book Store</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="photos/exam.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Exam Proctoring System</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="photos/iot.webp" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Smart Fan Energy System Using Arduino</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="photos/Azure ai Fundamentals.jpg" alt="Microsoft Certified in Azure AI Fundamentals" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Azure Ai Fundamentals</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Nov 17, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Microsoft Certified  in 2022</h3>
+
+                  <p class="blog-text">
+                    Demonstrate fundamental AI concepts related to the development of software and services of Microsoft Azure to create AI solutions.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="photos/AWS Academy Graduate.jpg" alt="AWS Academy Cloud Foundations" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Cloud Foundations</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jun 02, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">AWS Academy CLoud Foundations</h3>
+
+                  <p class="blog-text">
+                    The on-demand delivery of compute power, database, storage, applications, 
+                    and other IT resources via the internet with pay-as-you-go pricing.
+                    Cloud computing enables you to stop thinking of infrastructure as hardware, and instead think of (and use) it as software.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="photos/NPTEL.jpg" alt="Cloud Computing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">NPTEL Online Certification</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Jan - Apr 23, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Cloud Computing by NPTEL</h3>
+
+                  <p class="blog-text">
+                    12 Weeks online Certification on Cloud Computing by NPTEL.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="photos/Cybersceurity Essentials.jpg" alt="CyberSecurity Essentials" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">CyberSecurity Essentials</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Nov 06, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Cybersecurity Essentials by Cisco Network Academy</h3>
+
+                  <p class="blog-text">
+                    Describe the tactics, techniques and procedures used by cyber criminals.
+                    Describe the principles of confidentiality, integrity, and availability as they relate to data states and cybersecurity.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="photos/conference.jpg" alt="1st International Conference" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Project Conference </p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">21 - 22, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">1st International Conference Conference on COmputational Techniques & Smart Manufacturing.</h3>
+
+                  <p class="blog-text">
+                    1st International Conference on Computational Techniques & Smart Manufacturing.
+                    june-21&22, 2024.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
